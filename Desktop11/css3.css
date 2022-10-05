@@ -1,0 +1,204 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.box-container {
+  position: absolute;
+  width: 502px;
+  height: 2404px;
+  left:49px;
+  top: 0px;
+  background: #debbbb;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+
+}
+
+.box-container1 {
+  position: absolute;
+  width: 825.5px;
+  height: 400px;
+  left:478.44px;
+  top: -615px;
+  background: #f2dfdf;
+}
+#box-container2 {
+  position: absolute;
+  width: 825.5px;
+  height: 400px;
+  left: 0.44px;
+  top: 411px;
+  background: #f2dfdf;
+}
+
+#box-container3 {
+  position: absolute;
+  width: 825.5px;
+  height: 400px;
+  left: 0.44px;
+  top: 411px;
+  background: #f2dfdf;
+}
+
+.headtag {
+  font-weight: 401;
+  font-size: 25px;
+  line-height: 44px;
+  text-align: center;
+}
+
+#experince-container {
+  position: absolute;
+  width: 436px;
+  height: 233px;
+  left: 44px;
+  top: 70px;
+  background: #d9d9d9;
+}
+
+#department-conatiner {
+    position: absolute;
+    width: 434px;
+    height: 251px;
+    left: 1px;
+    top: 270px;
+    background: #d9d9d9;
+}
+#industries-container {
+  position: absolute;
+  width: 434px;
+  height: 241px;
+  left: 0px;
+  top: 276px;
+  background: #d9d9d9}
+#location-container {
+    position: absolute;
+    width: 437px;
+    height: 237px;
+    left: -2px;
+    top: 280px;
+    background: #d9d9d9;
+}
+#salary-container {
+  position: absolute;
+  width: 435px;
+  height: 245px;
+  left: 0.34px;
+  top: 263.87px;
+  background: #d9d9d9;}
+#education-container {
+    position: absolute;
+    width: 437.5px;
+    height: 246px;
+    left: -3px;
+    top: 280.87px;
+    background: #d9d9d9;}
+
+ #companytype-contaner {
+    position: absolute;
+    width: 440px;
+    height: 233.13px;
+    left: -0.5px;
+    top: 285.87px;
+    background: #d9d9d9;
+}
+
+.radioo-btn{
+    position: absolute;
+    margin-left: 66px;
+    font-size: 15px;
+    margin-top: 50px;
+    line-height: 14px;
+    margin-top: 67px;
+}
+
+
+input[type="radio"]{
+    color: black;
+    margin-left: 150px;
+    width: 100px;
+}
+.exp-info{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 40.94px;
+    top: 10.5px;
+    font-size: 22px;
+    color: #F23A3A;
+}
+.linkm{
+    text-decoration: none;
+}
+.department{
+  margin-top: 71px;
+  margin-left: -138px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.industries{
+  margin-top: 71px;
+  margin-left: -138px;
+  font-size: 14px;
+  font-weight: 475;
+}
+.Location{
+  margin-top: 60px;
+margin-left: -130px;
+font-size: 15px;
+font-weight: 475;
+}
+
+.Salary{
+  margin-top: 62px;
+margin-left: -127px;
+font-size: 16px;
+font-weight: 475;
+}
+.Education{
+  margin-top: 56px;
+margin-left: -120px;
+font-size: 15px;
+font-weight: 498;}
+.Company-type{
+  margin-top: 71px;
+  margin-left: -138px;
+  font-size: 20px;
+  font-weight: 475;
+
+}
+
+.linkm{
+  margin-left: 296px;
+display: flex;
+justify-content: flex-end;
+font-size: 27px;
+margin-right: 43px;
+margin-top: -17px;}
+
+.jobdesc{
+  position: absolute;
+  width: 930.56px;
+  height: 592px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 39px;
+ margin-left: 10px;
+  color: #000000;
+}
+.jobdesc-link{
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.jobdesc-2{
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
