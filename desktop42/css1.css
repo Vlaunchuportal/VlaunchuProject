@@ -1,0 +1,141 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.nav-img {
+  background-color: transparent;
+  width: 329.41px;
+  height: 88px;
+}
+
+#navbarNav {
+  font-size: 38px;
+  line-height: 58px;
+  text-align: center;
+  margin-left: 500px;
+}
+
+.nav-link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+  word-spacing: 50px;
+}
+
+.profile-container {
+  position: absolute;
+  width: 1349px;
+  height: 350px;
+  left: 0px;
+  top: 109px;
+  background: rgba(20, 103, 121, 0.899375);
+}
+.profile-photo {
+  position: absolute;
+  width: 137.69px;
+  height: 135px;
+  left: 19px;
+  top: 28px;
+  border-radius: 117px;
+}
+
+.name {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #fff3f3;
+  left: 188.67px;
+  top: 45.92px;
+}
+
+#list-item {
+  position: absolute;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 29px;
+  margin-top: 114px;
+  margin-left: 126px;
+}
+
+#details {
+  color: #ffffff;
+}
+.progress-icon {
+  position: absolute;
+  width: 588.81px;
+  height: 8px;
+  left: 100px;
+  top: 337px;
+  background: #000000;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.container-box-2 {
+  position: absolute;
+  width: 293px;
+  height: 262px;
+  left: 971.93px;
+  top: 66.5px;
+  background: rgba(84, 165, 183, 0.899375);
+}
+.left-container {
+    position: absolute;
+    width: 311.5px;
+    height: 609px;
+    left: 43.95px;
+    top: 485.34px;
+    background: #f2e1d4;
+    border-radius: 37px;
+}
+.under-line{
+    position: absolute;
+    width: 267px;
+    height: 4px;
+    left: 19px;
+    top: 69px;
+    background: #D9D9D9;
+}
+
+.Detail li a{
+  color: black;
+  text-decoration: none;
+
+}
+.Detail{
+  list-style: none;
+  line-height: 38px;
+  margin-left: 52px;
+  margin-top: 29px;
+  font-size: 19px;
+  font-weight: 500;
+ 
+}
+
+.right-container{
+  position: absolute;
+  width: 616.5px;
+  height: 187.12px;
+  left: 538.68px;
+  top: -2.97px;
+  background: rgba(84, 183, 159, 0.899375);
+  border-radius: 35px;
+}
+
+.containe-right{
+  margin-left: 100px;
+}
+
+#aaa{
+  position: absolute;
+  line-height: -20px;
+}
+
