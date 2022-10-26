@@ -1,0 +1,162 @@
+*{
+    border-style: border-box;
+    margin: 0%;
+}
+
+.paymentCard{
+    position: absolute;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 25px;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 30px;
+}
+.headtext{
+color: #000000;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.upi{
+width: 66px;
+height: 44px;
+margin-left: 100px;
+top: 250px;
+}
+
+.paymntform{
+position: absolute;
+font-family: 'Inter',sans-serif;
+width: 616.54px;
+height: 76px;
+left: 773.46px;
+top: 52px;
+
+
+}
+.inputext{
+    border-style: none;
+    background: #D9D9D9;
+    width: 400.54px;
+    height: 40px;    
+}
+.title2{
+    border-style: none;
+top:289px;
+}
+
+.expiredate{
+position: absolute;
+top: 180px;
+display: flex;
+justify-content: space-between;
+margin-top: 60px;
+font-family: 'Inter',sans-serif ;
+font-style: normal;
+
+}
+
+.expidate{
+font-weight: 100px;
+font-size: 20px;
+text-align: center;
+color: #000000;
+
+
+}
+.expInput{
+    border-style: none;
+    margin: 10px 10px;
+    margin-top: 50px;
+    margin-left: -121px;
+    width: 180px;
+    background: #D9D9D9;
+    
+}
+.expInput2{
+    border-style: none;
+    margin: 10px 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 180px;
+    background: #D9D9D9;
+    height: 40px;
+}
+
+.inputtext{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+}
+.inputtext2{
+    margin-top:50px;
+}
+
+.cvvcontainer{
+    font-family: 'Inter',sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center; 
+    color: #000000;
+    margin-top: 180px;
+    position: absolute;
+    margin-left: -5px;
+}
+
+.CVV{
+    margin-left: -160px;
+   
+}
+.cvvInput{
+    width: 200px;
+    height: 40px;
+    left: 45.58px;
+    top: 693px;
+    border-style: none;   
+    background: #D9D9D9;
+}
+
+
+button{
+border-style: none;
+background-color: #F2503A;    
+color:#FFFFFF;
+text-decoration: none;
+cursor: pointer;
+position: absolute;
+top: 480px;
+width: 400.54px;
+height: 60px;
+left: -5px;
+font-weight: 500;
+font-size: 25px;
+}
+
+.upipayment{
+line-height: 48px;
+text-align: center;
+margin-top:550px;
+margin-left: -300px;
+
+}
+.upitext{
+font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 400px;
+font-size: 22px;
+margin-left: 45px;
+}
+
+.upiInput{
+position: absolute;
+width: 400px;
+height:45px;
+left: -12px;
+top: 800px;
+border-style: none;
+background: #D9D9D9;
+}

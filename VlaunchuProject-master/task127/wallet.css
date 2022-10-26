@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background: #F1E0E0;
+}
+
+.nav-item{
+   
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.19em;
+    margin-top: 20px;
+    
+    
+}
+.home-page{
+    
+   position: absolute;
+    margin-left: 1043px;
+    margin-top: 7px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.title-heading{
+    position: absolute;
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.19em;
+    left: 393px;
+    top: 132px;
+}
+
+.content{
+    position: absolute;
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    left: 500px;
+   margin-top:  252px;
+}
+.submit-button{
+    position: absolute;
+    width: 387px;
+    height: 52px;
+    background: #1E5E9A;
+    border-radius: 100px;
+    color: white;
+    font-family: 'Inter' ,sans-serif;
+    letter-spacing: -2px;
+    border-style: none;
+
+}

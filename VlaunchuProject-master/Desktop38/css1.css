@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #7EDCDC;
+    width: 720px;
+
+}
+.myform{    
+    
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+}
+.title{
+    position:absolute;
+    left: 28px;
+    top: 246px;
+    font-size: 37px;
+}
+#container1{
+    position: absolute;
+    left: 11px;
+    width: 675px;
+    top: 321px;
+    background: #3A7E7E;
+    box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.25);
+    height: 256px;
+}
+.form-contro{
+    margin-left: 15px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400px;
+     margin-top: 13px;
+}
+#box-container2{
+    position: absolute;
+    left: 1px;
+    width: 675px;
+    top: 321px;
+    background: #3A7E7E;
+    box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.25);
+    height: 256px;
+
+}
+#container3{
+    position: absolute;
+    left: -3px;
+    width: 675px;
+    top: 321px;
+    background: #3A7E7E;
+    box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.25);
+    height: 55px;
+}
+#container-4{
+    position: absolute;
+    left: 1px;
+    width: 675px;
+    top: 141px;
+    background: #3A7E7E;
+    box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.25);
+    height:298px;
+    
+}
+input{
+    background: #D9D9D9;
+    box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.25);
+    border-style: none;
+}
+textarea{
+    background: #D9D9D9;
+    border-style: none;
+    box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.25);
+}
