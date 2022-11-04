@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 904px;
+    height: 981px;
+    border: 2px solid white;
+    word-wrap: break-word;
+    left: 282px;
+}
+
+header ul {
+    display: flex;
+    float: right;
+    gap: 23px;
+    padding-right: 19px;
+    padding-bottom: -31px;
+    align-items: self-end;
+}
+
+.invite {
+    position: absolute;
+    float: 40px;
+    left: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+.menu {
+    width: 904px;
+    height: 281px;
+    left: 0px;
+    background: #1141ED;
+}
+
+.menu p {
+    padding-left: 26px;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.menu div {
+
+    width: 821px;
+    height: 63px;
+    background: #1E5E9A;
+    border-radius: 72px;
+    margin-left: 40px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+a {
+    text-decoration: none;
+
+}
+a:hover{
+    color: black;
+    font-size: large;
+    background-color: bisque;
+}
+.menu a {
+    color: white;
+
+}
+
+button {
+    background: border-box;
+    border: none;
+}
+
+.msg {
+    width: 904px;
+    padding-left: 59px;
+    background: #F1E0E0;
+    padding-bottom: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+}
+
+.msg p {
+    width: 669px;
+    height: 232px;
+    left: 67px;
+    top: 667px;
+    color: #000000;
+}
+
+hr {
+    border: 1px solid #000000;
+    transform: rotate(0.23deg);
+    margin-right: 100px;
+}
