@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block-03</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        nav {
+            background-image: url(vlanchuback.png);
+            position: inherit;
+            width: 1440px;
+            height: 108px;
+            left: 0px;
+            top: -198px;
+            opacity: .07px;
+        }
+
+        nav hr {
+            position: absolute;
+            width: 509px;
+            height: 3px;
+            left: 26px;
+            top: 9px;
+
+            background: #005203;
+        }
+
+        .img {
+            position: absolute;
+            width: 503px;
+            height: 62px;
+            left: 27px;
+            top: 28px;
+
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 64px;
+            line-height: 116px;
+            /* or 181% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.03em;
+
+            color: rgba(0, 140, 39, 0.83);
+
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        .img2 {
+            position: absolute;
+            width: 315px;
+            height: 6px;
+            left: 94px;
+            top: 88px;
+
+            font-family: 'Roboto Serif';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 116px;
+            /* or 829% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.16em;
+
+            color: #000000;
+
+        }
+
+        nav li {
+            list-style: none;
+
+            width: 143px;
+            height: 20px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 100%;
+            /* identical to box height, or 20px */
+
+            letter-spacing: -0.03em;
+
+            color: #000000;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            align-self: center;
+            flex-grow: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        nav ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 8px;
+            /* gap: 40px; */
+
+            position: absolute;
+            width: 758px;
+            height: 59px;
+            left: 626px;
+            top: 6px;
+        }
+
+        button {
+            margin-right: 5px;
+            width: 100px;
+            height: 43px;
+
+            background: #1E753C;
+            border-radius: 24px;
+
+            color: #FFFFFF;
+
+        }
+
+        .vector {
+            position: fixed;
+            width: 643.26px;
+            height: 331.73px;
+            left: -181px;
+            top: 262.66px;
+            background: linear-gradient(271.12deg, rgba(4, 153, 19, 0.405) -11.83%, rgba(89, 169, 97, -22.715234) 85.44%, rgba(199, 255, 204, 120) 95.87%);
+            transform: rotate(-38.12deg);
+
+        }
+
+        .frame {
+            position: absolute;
+            left: 9.65%;
+            right: 64.31%;
+            top: 23.98%;
+            bottom: 18.23%;
+            box-shadow: 0px 3px 32px rgba(0, 0, 0, 0.42);
+            border-radius: 32px;
+            width: 246px;
+            height: 336px;
+            background: #FFFFFF;
+
+            text-align: center;
+        }
+
+
+
+        .frame ul {
+            display: flex;
+            justify-content: center;
+            top: 253px;
+            left: 47px;
+            width: 129px;
+            gap: 26px;
+        }
+
+        .frame ul li {
+            width: 30px;
+        }
+
+        .orhr {
+            display: flex;
+            margin: 16px 0;
+        }
+
+        .orhr hr {
+            width: 99px;
+            height: 2px;
+            background: linear-gradient(0deg, #B7A4A4, #B7A4A4), #000000;
+        }
+
+        .frame input,
+        select {
+            text-align: center;
+
+            padding: 8px 0px;
+            background: #CFFFE5;
+            border: 2px solid #FFFFFF;
+            border-radius: 30px;
+
+        }
+
+        .frame input {
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-top: -11px;
+        }
+
+        .right {
+            float: right;
+            /* position: relative; */
+            /* width: 755px;
+            height: 382px;
+            background: #FFFFFF;
+            opacity: 0.99; */
+        }
+
+        .right p {
+            width: 569px;
+            /* height: 192px; */
+
+            /* Blockquote/02 */
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 150%;
+            /* or 48px */
+
+            letter-spacing: -0.03em;
+
+            color: #000000;
+
+            margin-top: 64px;
+            margin-right: 127px;
+            flex: none;
+            order: 0;
+            align-self: center;
+            flex-grow: 0;
+        }
+
+        .inpemail {
+            box-sizing: border-box;
+            position: absolute;
+            left: 54%;
+            right: 0%;
+            top: 54%;
+            bottom: 38.74%;
+            width: 541px;
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            border-radius: 100px;
+            text-align: center;
+        }
+
+        .inpemail input {
+            float: left;
+            margin-top: 14px;
+            margin-left: 5pax;
+            padding-left: 22px;
+            border: none;
+        }
+
+        .inpemail button {
+            float: right;
+            margin-top: 2px;
+            margin-right: 13px;
+        }
+
+        .right ul {
+            margin-top: 50px;
+            display: flex;
+            gap: 24px;
+            margin-left: -13px;
+        }
+
+        .right li {
+
+            list-style: none;
+        }
+
+        .right li i {
+            margin-right: 10px;
+        }
+
+        footer {
+            position: fixed;
+            width: 98vw;
+            height: 65px;
+            left: 0px;
+            top: 88%;
+
+            border: 2px solid;
+            border-radius: 50px;
+            margin: 0 17px;
+
+        }
+
+        .gright {
+            position: absolute;
+            left: 3.1%;
+            right: 90.35%;
+            top: 10.42%;
+            width: 51.92px;
+            height: 50px;
+            border: 2px solid #000000;
+            border-radius: 20px;
+            text-align: center;
+           
+        }
+
+        .gleft {
+            float: right;
+            margin-right: 23px;
+            margin-top: 5px;
+        }
+        li{
+            list-style: none;
+        }
+        footer li {
+            
+            gap: 5px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <hr>
+            <img class="img" src="VLAUNCHU.png" alt="loding">
+            <img class="img2" src="BUSINESS LAUNCH SIMPLIFIED.png" alt="">
+            <hr style="    margin-top: 92px;">
+        </div>
+        <ul>
+            <li><a href="">Why VLaunchU </a></li>
+            <li><a href="">Solutions</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Enterprise</a></li>
+            <li><a href="">Project</a></li>
+            <li style="position: absolute;
+           
+            left: 750px;
+            top: 15px;"><a href=""><button>Sign up</button></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <div class="vector">
+
+
+        </div>
+        <div class="frame">
+            <h1 style="margin: 0px; ">Sign in</h1>
+            <div style="    margin-top: 8px;">
+                <select name="" id="" style="    padding: 6px 13px;
+                margin-bottom: 5px;">
+                    <option value="Recruiter">Recruiter</option>
+                </select>
+            </div>
+            <div><input type="text" placeholder="Email or Phone"></div>
+            <div><input type="text" placeholder="Password"></div>
+
+            <button>Sign In</button>
+            <div class="orhr">
+                <hr><span>or</span>
+                <hr>
+            </div>
+            <p>Sign In Using</p>
+            <ul>
+                <li><i class="fa-brands fa-google"></i></li>
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+            </ul>
+        </div>
+        <div class="right">
+            <p>
+                “To constantly over deliver and satisfy our clientele with the most professional and cost effective
+                solutions for all their business resource needs.”
+            </p>
+            <div class="inpemail">
+                <input style="border: none;" type="text" placeholder="Enter your email for Updates">
+                <button>Subscribe</button>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>Project</li>
+                    <li><i class="fa-solid fa-check"></i>Customize everything</li>
+                    <li><i class="fa-solid fa-check"></i>Free Files</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="gright">
+            <a href="#">
+
+                <i class="fa-solid fa-house" style="padding-top: 8px; font-size: xx-large;"></i>
+            </a>
+        </div>
+        <div class="gleft">
+            
+            <div style="margin-left: 66px;">Our Mail : <a href="#">Abcd198@gmai.com</a></div>
+            <ul style="display: flex;    gap: 16px;">Join us Through :
+                <li><i class="fa-brands fa-whatsapp"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-youtube"></i></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
