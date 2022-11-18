@@ -1,0 +1,121 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+.container-nav{
+    background-image: url('../Block03/components/navbar.png');
+    background-position: center;
+    height: 100px;
+    width: 1349px;
+    margin-bottom: -148px;   
+    background-size: cover; 
+}
+.back{
+    position: absolute;
+    width: 332.26px;
+    height: 298.73px;
+    left: 29px;
+    top: 182.66px;
+    background: linear-gradient(275.12deg, rgba(4, 153, 19, 0.405) 35.17%, rgba(89, 169, 97, 0.284766) 56.44%, rgba(199, 255, 204, 0) 86.87%);
+    transform: rotate(-44.12deg);
+}
+
+#form-container{
+    background: #FFFFFE;
+    box-shadow: 0px 3px 8px rgb(0 0 0 / 42%);
+    border-radius: 28px;
+    height: 433px;
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+}
+
+ul{
+  
+    line-height: 90px;
+    display: flex;
+    position: absolute;
+    list-style: none;
+    margin-left: 450px;
+    color: black;
+    font-size: 21px;
+    font-family: 'Inter',;
+    font-weight: 500;
+}
+li a{
+    
+    color:black;
+    text-decoration: none;
+}
+.line{
+    box-sizing: border-box;
+    position: absolute;
+    width: 130px;
+    height: 1px;
+    left: 2px;
+    top: 410px;
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+    border: 1px solid #B7A4A4;
+}
+
+.line1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 108px;
+    height: 1px;
+    left: 180px;
+    top: 410px;
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+    border: 1px solid #B7A4A4;
+}
+.quto{
+    width: 569px;
+    height: 192px;
+    font-family: 'Inter',;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    margin-left: 665px;
+    margin-top: 231px;
+}
+
+.radiobtn{
+    position: absolute;
+    color: black;
+    margin-left: 300px;
+}
+
+.footer{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1349px;
+    height: 67px;
+    left: 0px;
+    top: 680px;
+    background: #ECF0F3;
+    border: 1px solid #000000;
+    border-radius: 40px;
+}
+
+#form-container{
+margin-top:200rem;
+position: absolute;
+    width: 306px;
+    height: 505px;
+    margin-top: 12.25rem !important;
+}
+ 
+#submit{
+    margin-left: 6.25rem !important;   
+}
