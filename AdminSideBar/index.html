@@ -50,7 +50,7 @@
             <li>
                 <div class="icon-link">
                     <a href="#">
-                        <ion-icon name="tablet-portrait-outline" ></ion-icon>
+                        <ion-icon name="tablet-portrait-outline"></ion-icon>
                         <span class="link_name">Posts</span>
 
                     </a>
@@ -93,7 +93,7 @@
                         <span class="link_name">Plugins</span>
 
                     </a>
-                    <ion-icon name="chevron-down-outline"  class="arrow"></ion-icon>
+                    <ion-icon name="chevron-down-outline" class="arrow"></ion-icon>
                 </div>
                 <ul class="sub-menu">
                     <li><a class="link_name" href="#">Plugins</a></li>
@@ -137,12 +137,12 @@
                 </div>
             </li>
             <li>
-            <div class="profile-details">
-                <div class="profile-cotent">
-                    <img src="profile.jpg" alt="">
+                <div class="profile-details">
+                    <div class="profile-cotent">
+                        <img src="profile.jpg" alt="">
+                    </div>
                 </div>
-            </div>
-            
+
                 <div class="name-job">
                     <div class="profile_name">Juliya</div>
                     <div class="job">Backend developer</div>
@@ -160,22 +160,23 @@
 
 </body>
 <script>
-  let  arrow = document.querySelectorAll('.arrow');
-  
-  for (let i = 0; i < arrow.length; i++) {
-   arrow[i].addEventListener("click",(e)=>{
-    let arrowParent = e.target.parentElement.parentElement;
-    console.log(arrowParent);
-    arrowParent.classList.toggle("showMenu");
-   });
-    
-  }
-  let sidebar = document.querySelector(".sidebar");
-  let btn = document.querySelector(".btn");
-  console.log(btn);
-  btn.addEventListener("click",()=>{
-    sidebar.classList.toggle("close");
-});
- 
+    let arrow = document.querySelectorAll('.arrow');
+
+    for (let i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e) => {
+            let arrowParent = e.target.parentElement.parentElement;
+            console.log(arrowParent);
+            arrowParent.classList.toggle("showMenu");
+        });
+
+    }
+    let sidebar = document.querySelector(".sidebar");
+    let btn = document.querySelector(".btn");
+    console.log(btn);
+    btn.addEventListener("click", () => {
+        sidebar.classList.toggle("close");
+    });
+
 </script>
+
 </html>
