@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="sidebar ">
+        <div class="logo-details">
+            <ion-icon name="logo-codepen"></ion-icon>
+            <span class="logo_name">Codinglab</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <ion-icon name="grid-outline"></ion-icon>
+                        <span class="link_name">Dashboard</span>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">Category</a></li>
+                        </ul>
+
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <ion-icon name="copy-outline"></ion-icon>
+                        <span class="link_name">Category</span>
+
+                    </a>
+                    <ion-icon name="chevron-down-outline" class="arrow"></ion-icon>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Category</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Card Design</a></li>
+                    <li><a href="#">Form Design</a></li>
+
+                </ul>
+            </li>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <ion-icon name="tablet-portrait-outline" ></ion-icon>
+                        <span class="link_name">Posts</span>
+
+                    </a>
+                    <ion-icon name="chevron-down-outline" class="arrow"></ion-icon>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Posts</a></li>
+                    <li><a href="#">Html & CSS</a></li>
+                    <li><a href="#">php </a></li>
+                    <li><a href="#">Javascript Design</a></li>
+
+                </ul>
+            </li>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <ion-icon name="pie-chart-outline"></ion-icon>
+                        <span class="link_name">Analytics</span>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">Category</a></li>
+                        </ul>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <ion-icon name="stats-chart-outline"></ion-icon>
+                        <span class="link_name">Chart</span>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">Chart</a></li>
+                        </ul>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <ion-icon name="swap-vertical-outline"></ion-icon>
+                        <span class="link_name">Plugins</span>
+
+                    </a>
+                    <ion-icon name="chevron-down-outline"  class="arrow"></ion-icon>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Plugins</a></li>
+                    <li><a href="#">UI Face</a></li>
+                    <li><a href="#">Pigments</a></li>
+                    <li><a href="#">Box Icons</a></li>
+
+                </ul>
+            </li>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <ion-icon name="compass-outline"></ion-icon>
+                        <span class="link_name">Explore</span>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">Explore</a></li>
+                        </ul>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <ion-icon name="time-outline"></ion-icon>
+                        <span class="link_name">History</span>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">History</a></li>
+                        </ul>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <ion-icon name="settings-outline"></ion-icon>
+                        <span class="link_name">Setting</span>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">Setting</a></li>
+                        </ul>
+                    </a>
+                </div>
+            </li>
+            <li>
+            <div class="profile-details">
+                <div class="profile-cotent">
+                    <img src="profile.jpg" alt="">
+                </div>
+            </div>
+            
+                <div class="name-job">
+                    <div class="profile_name">Juliya</div>
+                    <div class="job">Backend developer</div>
+                </div>
+                <ion-icon name="log-out-outline"></ion-icon>
+            </li>
+        </ul>
+    </div>
+    <section class="home-selection">
+        <div class="home-cotent">
+            <ion-icon name="menu-outline" class="btn"></ion-icon>
+            <span class="text">Dropdown Menu</span>
+        </div>
+    </section>
+
+</body>
+<script>
+  let  arrow = document.querySelectorAll('.arrow');
+  
+  for (let i = 0; i < arrow.length; i++) {
+   arrow[i].addEventListener("click",(e)=>{
+    let arrowParent = e.target.parentElement.parentElement;
+    console.log(arrowParent);
+    arrowParent.classList.toggle("showMenu");
+   });
+    
+  }
+  let sidebar = document.querySelector(".sidebar");
+  let btn = document.querySelector(".btn");
+  console.log(btn);
+  btn.addEventListener("click",()=>{
+    sidebar.classList.toggle("close");
+});
+ 
+</script>
+</html>
